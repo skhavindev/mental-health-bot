@@ -6,7 +6,7 @@ from langchain_groq import ChatGroq
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "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"
 
 
 # Custom CSS loading functions
