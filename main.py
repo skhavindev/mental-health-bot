@@ -46,6 +46,8 @@ class MentalHealthChatbot:
                 {history}
 
                 Human: {input}
+
+                Format the answers in Markdown
                 AI Assistant:"""
             ),
             output_parser=StrOutputParser(),
@@ -130,7 +132,7 @@ def main():
         if 'chatbot' not in st.session_state:
             st.session_state.chatbot = MentalHealthChatbot(
                 groq_api_key=GROQ_API_KEY,
-                model_name="mixtral-8x7b-32768"
+                model_name="llama-3.1-70b-versatile"
             )
 
         # Chat interface
