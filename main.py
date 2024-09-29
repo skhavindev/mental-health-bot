@@ -40,7 +40,7 @@ class MentalHealthChatbot:
         os.environ["GROQ_API_KEY"] = self.groq_api_key
 
         # Initialize the language model
-        self.llm = ChatGroq(temperature=0.2, model_name=self.model_name, groq_api_key=self.groq_api_key)
+        self.llm = ChatGroq(model_name=self.model_name, groq_api_key=self.groq_api_key)
 
         # Set up the chatbot chain with a mental health focus and memory
         self.memory = ConversationBufferMemory()
