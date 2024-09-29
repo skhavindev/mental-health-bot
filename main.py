@@ -75,10 +75,39 @@ def main():
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         header {visibility: hidden;}
-        .stviewerBadge_link__qRIco {
+        
+         .wrapper {
+          position: relative;
+          z-index: 1;
+          display: inline-block;
+          width: 100vw;
+        }
+
+        .hidefooter {
+          position: absolute;
+          width: 150px;
+          height: 35px;
+          background: rgb(242,240,246);
+          right: 0px;
+          bottom: 0px;
+          z-index: 2;
+          display: block;
+          color: rgb(0, 0, 0);
+        }
+    
+        iframe {
+          display: block;
+          background: #ffffff;
+          border: none;
+          height: 99vh;
+          width: 99vw;
+        }
+
+        
+        .viewerBadge_link__qRIco {
         display: none !important;
         }
-        .stviewerBadge_container__r5tak styles_viewerBadge__CvC9N {
+        .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {
         display: none !important;
         }
         .stApp {
