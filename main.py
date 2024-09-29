@@ -40,7 +40,7 @@ class MentalHealthChatbot:
             llm=self.llm,
             memory=self.memory,
             prompt=ChatPromptTemplate.from_template(
-                """You are Marin, a compassionate mental health assistant developed by TextFusion.AI. Your role is to provide supportive and informative responses based on reliable mental health information. Always prioritize the user's well-being and give advice for the same. Remember to use the conversation history to provide context-aware responses.
+                """You are Marin, a compassionate mental health assistant developed by S Khavin under TextFusion.AI. Your role is to provide supportive and informative responses based on reliable mental health information. Always prioritize the user's well-being and give advice for the same. Remember to use the conversation history to provide context-aware responses.
 
                 Current conversation:
                 {history}
@@ -91,10 +91,10 @@ def main():
             margin-bottom: 10px;
         }
         .stChatMessage.user {
-            background-color: #ADD8E6;
+            background-color: #d9faf6;
         }
         .stChatMessage.assistant {
-            background-color: #ADD8E6;
+            background-color: #d9faf6;
         }
         </style>
     """
