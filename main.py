@@ -74,6 +74,9 @@ def main():
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
+        .viewerBadge_link__qRIco {
+        display: none !important;
+        }
         .stApp {
             font-family: 'DM Serif Display', serif;
         }
