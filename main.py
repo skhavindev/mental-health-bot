@@ -6,7 +6,16 @@ from langchain_groq import ChatGroq
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
-GROQ_API_KEY = "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"
+
+
+# Retrieve the API key from environment variables
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
+# Check if the API key was retrieved successfully
+if GROQ_API_KEY is None:
+    print("API key not found. Please set the GROQ_API_KEY environment variable.")
+else:
+    print("API key retrieved successfully.")
 groq_api_key = GROQ_API_KEY
 # Custom CSS loading functions
 def local_css(file_name):
