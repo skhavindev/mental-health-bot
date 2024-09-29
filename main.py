@@ -55,8 +55,7 @@ class MentalHealthChatbot:
         try:
             response = self.conversation.predict(input=query)
             return response
-        except Exception as e:
-            return f"I apologize, but I encountered an error while processing your request: {str(e)}. Please try rephrasing your question or ask something else."
+        
 
 
 # Streamlit app
