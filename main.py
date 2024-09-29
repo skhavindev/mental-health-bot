@@ -74,10 +74,10 @@ def main():
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
         #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
-        .viewerBadge_link__qRIco {
+        .stviewerBadge_link__qRIco {
         display: none !important;
         }
-        viewerBadge_container__r5tak styles_viewerBadge__CvC9N {
+        .stviewerBadge_container__r5tak styles_viewerBadge__CvC9N {
         display: none !important;
         }
         .stApp {
