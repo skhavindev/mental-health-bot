@@ -77,6 +77,9 @@ def main():
         .viewerBadge_link__qRIco {
         display: none !important;
         }
+        viewerBadge_container__r5tak styles_viewerBadge__CvC9N {
+        display: none !important;
+        }
         .stApp {
             font-family: 'DM Serif Display', serif;
         }
