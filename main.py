@@ -76,40 +76,11 @@ def main():
         footer {visibility: hidden;}
         header {visibility: hidden;}
         
-         .wrapper {
-          position: relative;
-          z-index: 1;
-          display: inline-block;
-          width: 100vw;
+        .viewerBadge_link__1S137, .viewerBadge_container__1QSob { 
+        visibility: hidden;
+        display: none;
         }
 
-        .hidefooter {
-          position: absolute;
-          width: 150px;
-          height: 35px;
-          background: rgb(242,240,246);
-          right: 0px;
-          bottom: 0px;
-          z-index: 2;
-          display: block;
-          color: rgb(0, 0, 0);
-        }
-    
-        iframe {
-          display: block;
-          background: #ffffff;
-          border: none;
-          height: 99vh;
-          width: 99vw;
-        }
-
-        
-        .viewerBadge_link__qRIco {
-        display: none !important;
-        }
-        .viewerBadge_container__r5tak styles_viewerBadge__CvC9N {
-        display: none !important;
-        }
         .stApp {
             font-family: 'DM Serif Display', serif;
         }
