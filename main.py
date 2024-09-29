@@ -131,7 +131,7 @@ def main():
         if 'chatbot' not in st.session_state:
             st.session_state.chatbot = MentalHealthChatbot(
                 groq_api_key=GROQ_API_KEY,
-                model_name="llama-3.1-70b-versatile"
+                model_name="mixtral-8x7b-32768"
             )
 
         # Chat interface
