@@ -7,6 +7,7 @@ from langchain.memory import ConversationBufferMemory
 from langchain.chains import ConversationChain
 
 GROQ_API_KEY = "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"
+groq_api_key = GROQ_API_KEY
 # Custom CSS loading functions
 def local_css(file_name):
     with open(file_name) as f:
