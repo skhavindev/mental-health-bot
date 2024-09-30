@@ -37,7 +37,7 @@ class MentalHealthChatbot:
         self.model_name = model_name
 
         # Set the API key in the environment
-        GROQ_API_KEY = "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"
+        GROQ_API_KEY = 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
         GROQ_API_KEY = self.groq_api_key
 
         # Initialize the language model
