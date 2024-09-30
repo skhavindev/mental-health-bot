@@ -9,7 +9,7 @@ from langchain.chains import ConversationChain
 
 
 # Retrieve the API key from environment variables
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+
 
 # Check if the API key was retrieved successfully
 if GROQ_API_KEY is None:
@@ -130,8 +130,7 @@ def main():
     st.subheader("-Your personal mental health assistant-")
 
     # Initialize MentalHealthChatbot
-    
-
+    GROQ_API_KEY = "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"
     if not GROQ_API_KEY:
         st.error("API key is missing. Please set the GROQ_API_KEY environment variable.")
     else:
