@@ -130,7 +130,7 @@ def main():
     st.subheader("-Your personal mental health assistant-")
 
     # Initialize MentalHealthChatbot
-    GROQ_API_KEY = "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"
+    
 
     if not GROQ_API_KEY:
         st.error("API key is missing. Please set the GROQ_API_KEY environment variable.")
