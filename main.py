@@ -170,9 +170,9 @@ def main():
         - <i class="material-icons">psychology</i> [Mental Health Topics](https://www.apa.org/topics)
         """, unsafe_allow_html=True)
         st.write("Copyright © TextFusion.AI")
-        st.markdown('<i class="material-icons">photo_camera</i> [Instagram](https://instagram.com/im.your.nemesis)',
+        st.markdown('<i class="material-icons">photo_camera</i> [Linkedin](https://linkedin.com/in/s-khavin33)',
                     unsafe_allow_html=True)
-        st.write("For issues, please contact us on Instagram")
+        st.write("For issues, please contact us on Linkedin")
 
         if st.button("Clear Conversation", key="clear_button"):
             st.session_state.messages = []
